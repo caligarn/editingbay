@@ -65,7 +65,27 @@ class CatalogTests(unittest.TestCase):
     def test_private_field_or_removed_identity_rejected(self):
         self.catalog['clips'][0]['notes']='hidden'
         with self.assertRaises(ValueError):mod.validate(self.catalog,self.lock)
+
+        del self.catalog['clips'][0]['notes']
         del self.catalog['clips'][0]
         with self.assertRaises(ValueError):mod.validate(self.catalog,self.lock)
+
+    def test_drive_mapping_preserves_references_and_missing_media(self):
+        mapping={k:({'provider':'drive','fileId':'test_fixture_'+str(i),'restrictedVerified':True,'sha256':v}
+                    if k.endswith('.mp4') else {'provider':'static','sha256':v})
+                 for i,(k,v) in enumerate(self.hashes.items())}
+        original=copy.deepcopy(self.catalog)
+        out=mod.materialize(self.catalog,self.hashes,mapping)
+        self.assertEqual(original,self.catalog)
+        self.assertEqual([(c['id'],c['label'],c['latestVersion']) for c in original['clips']],
+                         [(c['id'],c['label'],c['latestVersion']) for c in out['clips']])
+        self.assertIsNone(next(c for c in out['clips'] if c['id']=='MC-025')['versions'][0]['video'])
+        self.assertTrue(out['clips'][0]['versions'][0]['video'].startswith('https://drive.google.com/file/d/'))
+        self.assertTrue(out['clips'][0]['versions'][0]['thumbnail'].startswith('/thumbnails/'))
+        key=self.catalog['clips'][0]['versions'][0]['video'][7:]
+        mapping[key]['restrictedVerified']=False
+        with self.assertRaisesRegex(ValueError,'owner-only'):mod.materialize(self.catalog,self.hashes,mapping)
+        mapping[key]['restrictedVerified']=True;mapping[key]['fileId']='bad/id?token=private'
+        with self.assertRaisesRegex(ValueError,'Invalid Drive'):mod.materialize(self.catalog,self.hashes,mapping)
 
 if __name__=='__main__':unittest.main()

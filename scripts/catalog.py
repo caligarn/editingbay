@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """Deterministic catalog import/build. No model calls, uploads or network access."""
-import argparse, copy, datetime, hashlib, json, re
+import argparse, copy, datetime, hashlib, json, re, shutil
 from pathlib import Path
 from urllib.parse import urlsplit
 
@@ -121,6 +121,16 @@ def materialize(catalog,hashes,mapping):
                 key=key[7:];entry=mapping.get(key)
                 require(entry is not None,'Upload mapping missing for '+key)
                 require(entry['sha256']==hashes.get(key),'Uploaded bytes do not match '+key)
+                if entry.get('provider')=='drive':
+                    require(field=='video','Drive mapping is for review videos only')
+                    require(re.fullmatch(r'[A-Za-z0-9_-]{10,}',entry['fileId']),'Invalid Drive file ID')
+                    require(entry.get('restrictedVerified') is True,'Verify owner-only Drive permissions before release')
+                    v[field]='https://drive.google.com/file/d/'+entry['fileId']+'/view'
+                    continue
+                if entry.get('provider')=='static':
+                    require(field=='thumbnail','Only thumbnails belong in the static bundle')
+                    v[field]='/thumbnails/'+key
+                    continue
                 url=urlsplit(entry['url'])
                 require(url.scheme=='https' and url.hostname and url.hostname.endswith('.public.blob.vercel-storage.com')
                         and not url.username and not url.password and not url.query and not url.fragment,'Public Blob URL required')
@@ -133,6 +143,7 @@ def main():
     commands=p.add_subparsers(dest='command',required=True)
     imp=commands.add_parser('import');imp.add_argument('manifest',type=Path)
     build=commands.add_parser('build');build.add_argument('--media-map',required=True,type=Path)
+    build.add_argument('--thumbnails-dir',type=Path)
     commands.add_parser('check')
     args=p.parse_args()
     catalog=json.loads((ROOT/'catalog.json').read_text());hashes=json.loads((ROOT/'asset-hashes.json').read_text())
@@ -145,7 +156,17 @@ def main():
         dest=ROOT/'dist';dest.mkdir(exist_ok=True)
         for name in ('index.html','app.js','styles.css','robots.txt','vercel.json'):write(dest/name,(ROOT/'site'/name).read_text())
         save(dest/'inventory.json',output)
-        require({x.name for x in dest.iterdir()}=={'index.html','app.js','styles.css','robots.txt','vercel.json','inventory.json'},'Unexpected deploy files')
+        thumbs={v['thumbnail'].split('/')[-1] for c in output['clips'] for v in c['versions'] if (v['thumbnail'] or '').startswith('/thumbnails/')}
+        if thumbs:
+            require(args.thumbnails_dir is not None,'Verified thumbnail directory required')
+            thumbdir=dest/'thumbnails';thumbdir.mkdir(exist_ok=True)
+            for key in sorted(thumbs):
+                source=args.thumbnails_dir/key
+                require(source.is_file() and digest(source)==hashes[key],'Thumbnail bytes mismatch: '+key)
+                shutil.copyfile(source,thumbdir/key)
+            require({x.name for x in thumbdir.iterdir()}==thumbs,'Unexpected thumbnail files')
+        expected={'index.html','app.js','styles.css','robots.txt','vercel.json','inventory.json'}|({'thumbnails'} if thumbs else set())
+        require({x.name for x in dest.iterdir()}==expected,'Unexpected deploy files')
     print(json.dumps({'command':args.command,'clips':len(catalog['clips']),'deployed':False}))
 
 if __name__=='__main__':main()

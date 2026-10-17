@@ -53,22 +53,39 @@ Example manifest (replace the placeholders with real completed-export evidence):
 
 For an existing clip, `topic`, `category` and `source` are omitted; its existing identity and source metadata remain. `sha256: null` plus `missingReason` preserves an unresolved edition without connecting it. A known hash can retain its asset key while the exact local file is absent; building still requires a verified upload map. Never treat a Library save as final approval or social-media publication. New Jewelry films continue series numbers 06–10 when delivered; revisions retain their current number.
 
-## Build and Vercel wiring
+## Restricted Drive videos and public thumbnail gallery
 
-After verifying the existing account's plan, remaining storage/transfer quota and spending controls, upload only the approved rendered videos and thumbnails to an approved public media store. No provisioner or uploader is included here. Record each upload result in ignored `.local/media-map.json`:
+The intended deployment keeps video copies restricted in an owner-only Drive folder. The public interface exposes approved labels, topics, source IDs, status flags and real thumbnails. A Drive file ID is a reference, not authorization: viewers still need permission to the file. Do not change video sharing to make an embed work. Upload copies only; preserve originals.
+
+The player uses the Drive preview iframe and always offers **Open in Drive**. Drive processing, sign-in and browser cookie policies can delay or block embedded playback. The fallback opens the exact edition. Enter the time shown in Drive manually in the feedback field; the gallery cannot read the cross-origin player's current timestamp. Copying still produces the stable person/clip/version reference and sends nothing.
+
+Check existing Drive capacity before bulk uploads. Check Vercel's existing plan and usage before deploying; Hobby is limited to personal, non-commercial use. Do not purchase or upgrade a plan as part of this workflow. No Blob storage or video proxy is needed for this approach.
+
+Keep exact upload results and hash verification in ignored `.local/media-map.json`:
 
 ```json
-{"MC-031-v1.mp4":{"url":"https://STORE.public.blob.vercel-storage.com/IMMUTABLE-KEY.mp4","sha256":"exact_hash_matching_asset-hashes.json"}}
+{
+  "MC-031-v1.mp4": {
+    "provider": "drive",
+    "fileId": "verified_drive_file_id",
+    "sha256": "exact_hash_matching_asset-hashes.json",
+    "restrictedVerified": true
+  },
+  "MC-031-v1.png": {
+    "provider": "static",
+    "sha256": "exact_hash_matching_asset-hashes.json"
+  }
+}
 ```
 
-Then:
+Set `restrictedVerified` only after checking the actual Drive permissions. Place exact thumbnail copies under `.local/thumbnails/` with their catalog asset-key filenames. The importer/build makes no network or model calls; uploading and checking permissions are explicit separate steps. Reuse verified file IDs to avoid duplicate uploads.
 
 ```sh
-python3 scripts/catalog.py build --media-map .local/media-map.json
+python3 scripts/catalog.py build --media-map .local/media-map.json --thumbnails-dir .local/thumbnails
 ```
 
-This fails closed on absent mappings or changed hashes. It creates `dist/` with only six public files. Deploy **only `dist/`** through the existing authorized Vercel connection, using a dedicated gallery project; do not point deployment uploads at a folder containing local evidence. No new GitHub repository, credential or OAuth permission is needed by this code.
+The build fails closed on missing upload mappings, incorrect hashes, invalid Drive IDs or unverified permissions. It copies only verified thumbnails into `dist/thumbnails/` plus six interface/catalog files. Never upload the repository root or `.local/` to a public deployment. No signed Library download links, account details, evidence or local source paths enter the release.
 
-The existing repository can be linked to Vercel after cost/access checks. Direct deployment of the verified `dist/` bundle avoids needing build secrets in Git. Automatic Git deployment is not configured: first choose how the approved public media map reaches the build. Do not enable an automatic build that publishes incomplete media or pulls unreviewed private metadata.
+Deploy only the verified `dist/` bundle through the existing authorized Vercel connection after cost and access checks, using a separate gallery project. No automatic Git deployment is configured. Keep the initial PR as a draft until the real restricted video pilot and hosted gallery are verified.
 
-The public site includes robots noindex metadata, `robots.txt` and an `X-Robots-Tag` header. These are indexing requests, not access controls. Anyone with the URL can view or copy public media. Test hosted thumbnails, 206 byte ranges, seeking, copying, desktop and phone layout, and absence of private fields before sharing the deployment URL. All dates, counts and latest versions come from catalog data.
+The public site requests no indexing through metadata, robots.txt and headers; those are not access controls. Public thumbnails and titles remain public, while Drive enforces the videos' existing restrictions. Check one real restricted embed at desktop and phone sizes before bulk upload, then verify fallback links, feedback copy, filters, version history and missing-media state. No physical-phone playback is claimed from a desktop viewport test.

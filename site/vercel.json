@@ -7,7 +7,7 @@
       {"key":"X-Robots-Tag","value":"noindex, nofollow, noarchive"},
       {"key":"X-Content-Type-Options","value":"nosniff"},
       {"key":"Referrer-Policy","value":"no-referrer"},
-      {"key":"Content-Security-Policy","value":"default-src 'self'; img-src 'self' https://*.public.blob.vercel-storage.com; media-src 'self' https://*.public.blob.vercel-storage.com; script-src 'self'; style-src 'self'; connect-src 'self'; object-src 'none'; frame-ancestors 'none'; base-uri 'none'; form-action 'none'"}
+      {"key":"Content-Security-Policy","value":"default-src 'self'; img-src 'self' https://*.public.blob.vercel-storage.com; frame-src https://drive.google.com; media-src 'self' https://*.public.blob.vercel-storage.com; script-src 'self'; style-src 'self'; connect-src 'self'; object-src 'none'; frame-ancestors 'none'; base-uri 'none'; form-action 'none'"}
     ]
   }]
 }
