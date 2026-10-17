@@ -1,0 +1,14 @@
+.local/
+.env*
+.vercel/
+dist/
+__pycache__/
+*.mp4
+*.mov
+*.m4v
+*.png
+*.jpg
+*.jpeg
+*.webp
+*.log
+.DS_Store

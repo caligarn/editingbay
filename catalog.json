@@ -1,0 +1,1643 @@
+{
+  "schemaVersion": 1,
+  "snapshotDate": "2026-10-17",
+  "clips": [
+    {
+      "id": "MC-001",
+      "label": "Grace 01",
+      "person": "Grace",
+      "topic": "Creative capabilities",
+      "category": "Interview",
+      "date": "2026-10-16",
+      "sourceIds": [
+        "ABEC7120"
+      ],
+      "hubEditions": false,
+      "versions": [
+        {
+          "id": "v1",
+          "number": 1,
+          "video": "/media/MC-001-v1.mp4",
+          "thumbnail": "/media/MC-001-v1.png",
+          "duration": 25.042,
+          "ranges": [
+            [
+              164.5,
+              186.95833333333334
+            ]
+          ],
+          "captionQA": false
+        }
+      ],
+      "latestVersion": "v1",
+      "reviewStatus": "Review draft"
+    },
+    {
+      "id": "MC-002",
+      "label": "Nick 01",
+      "person": "Nick",
+      "topic": "Tool overload vs creative flow",
+      "category": "Interview",
+      "date": "2026-10-16",
+      "sourceIds": [
+        "AKJN4625"
+      ],
+      "hubEditions": false,
+      "versions": [
+        {
+          "id": "v1",
+          "number": 1,
+          "video": "/media/MC-002-v1.mp4",
+          "thumbnail": "/media/MC-002-v1.png",
+          "duration": 45.167,
+          "ranges": [
+            [
+              181.5,
+              224.08333333333334
+            ]
+          ],
+          "captionQA": false
+        }
+      ],
+      "latestVersion": "v1",
+      "reviewStatus": "Review draft"
+    },
+    {
+      "id": "MC-003",
+      "label": "Mike 01",
+      "person": "Mike",
+      "topic": "Respecting AI skeptics",
+      "category": "Interview",
+      "date": "2026-10-16",
+      "sourceIds": [
+        "AMFL3297"
+      ],
+      "hubEditions": false,
+      "versions": [
+        {
+          "id": "v1",
+          "number": 1,
+          "video": "/media/MC-003-v1.mp4",
+          "thumbnail": "/media/MC-003-v1.png",
+          "duration": 66.334,
+          "ranges": [
+            [
+              58.083333333333336,
+              121.83333333333334
+            ]
+          ],
+          "captionQA": false
+        }
+      ],
+      "latestVersion": "v1",
+      "reviewStatus": "Review draft"
+    },
+    {
+      "id": "MC-004",
+      "label": "Guest WOBD0517 01",
+      "person": "Guest WOBD0517",
+      "topic": "Tools, not friends; privacy boundaries",
+      "category": "Interview",
+      "date": "2026-10-16",
+      "sourceIds": [
+        "WOBD0517"
+      ],
+      "hubEditions": false,
+      "versions": [
+        {
+          "id": "v1",
+          "number": 1,
+          "video": "/media/MC-004-v1.mp4",
+          "thumbnail": "/media/MC-004-v1.png",
+          "duration": 44.834,
+          "ranges": [
+            [
+              84.66666666666667,
+              126.91666666666667
+            ]
+          ],
+          "captionQA": false
+        }
+      ],
+      "latestVersion": "v1",
+      "reviewStatus": "Review draft"
+    },
+    {
+      "id": "MC-005",
+      "label": "Guest UNMD8694 01",
+      "person": "Guest UNMD8694",
+      "topic": "Small-team stories",
+      "category": "Interview",
+      "date": "2026-10-16",
+      "sourceIds": [
+        "UNMD8694"
+      ],
+      "hubEditions": false,
+      "versions": [
+        {
+          "id": "v1",
+          "number": 1,
+          "video": "/media/MC-005-v1.mp4",
+          "thumbnail": "/media/MC-005-v1.png",
+          "duration": 90.459,
+          "ranges": [
+            [
+              232.66666666666666,
+              320.54166666666663
+            ]
+          ],
+          "captionQA": false
+        }
+      ],
+      "latestVersion": "v1",
+      "reviewStatus": "Review draft"
+    },
+    {
+      "id": "MC-006",
+      "label": "Momo 01",
+      "person": "Momo",
+      "topic": "Robot dating; doctor and childcare conditions",
+      "category": "Interview",
+      "date": "2026-10-15",
+      "sourceIds": [
+        "OHTE8652"
+      ],
+      "hubEditions": false,
+      "versions": [
+        {
+          "id": "v4",
+          "number": 4,
+          "video": "/media/MC-006-v4.mp4",
+          "thumbnail": "/media/MC-006-v4.png",
+          "duration": 65.75,
+          "ranges": [
+            [
+              396.8,
+              398.3
+            ],
+            [
+              407.125,
+              413.75
+            ],
+            [
+              352,
+              356.0
+            ],
+            [
+              377.375,
+              378.5
+            ],
+            [
+              379.25,
+              382.0
+            ],
+            [
+              383.04,
+              391.29
+            ],
+            [
+              394.3,
+              398.3
+            ],
+            [
+              402.375,
+              413.75
+            ],
+            [
+              413.75,
+              414.1666666667
+            ],
+            [
+              418.625,
+              441.75
+            ]
+          ],
+          "captionQA": false
+        },
+        {
+          "id": "v3",
+          "number": 3,
+          "video": "/media/MC-006-v3.mp4",
+          "thumbnail": "/media/MC-006-v3.png",
+          "duration": null,
+          "ranges": [],
+          "captionQA": false
+        },
+        {
+          "id": "v2",
+          "number": 2,
+          "video": "/media/MC-006-v2.mp4",
+          "thumbnail": "/media/MC-006-v2.png",
+          "duration": 42.209,
+          "ranges": [
+            [
+              396.8,
+              398.3
+            ],
+            [
+              407.125,
+              413.75
+            ],
+            [
+              352,
+              356.0
+            ],
+            [
+              377.375,
+              378.5
+            ],
+            [
+              379.25,
+              382.0
+            ],
+            [
+              383.04,
+              391.29
+            ],
+            [
+              394.3,
+              398.3
+            ],
+            [
+              402.375,
+              413.75
+            ]
+          ],
+          "captionQA": false
+        },
+        {
+          "id": "v1",
+          "number": 1,
+          "video": "/media/MC-006-v1.mp4",
+          "thumbnail": "/media/MC-006-v1.png",
+          "duration": 42.208333333333336,
+          "ranges": [
+            [
+              396.8,
+              398.3
+            ],
+            [
+              407.125,
+              413.75
+            ],
+            [
+              352,
+              356.0
+            ],
+            [
+              377.375,
+              378.5
+            ],
+            [
+              379.25,
+              382.0
+            ],
+            [
+              383.04,
+              391.29
+            ],
+            [
+              394.3,
+              398.3
+            ],
+            [
+              402.375,
+              413.75
+            ]
+          ],
+          "captionQA": false
+        }
+      ],
+      "latestVersion": "v4",
+      "reviewStatus": "Review draft"
+    },
+    {
+      "id": "MC-007",
+      "label": "Grace 02",
+      "person": "Grace",
+      "topic": "Human oversight for diagnosis; childcare boundary",
+      "category": "Interview",
+      "date": "2026-10-15",
+      "sourceIds": [
+        "ABEC7120"
+      ],
+      "hubEditions": false,
+      "versions": [
+        {
+          "id": "v3",
+          "number": 3,
+          "video": "/media/MC-007-v3.mp4",
+          "thumbnail": "/media/MC-007-v3.png",
+          "duration": 81.542,
+          "ranges": [
+            [
+              280.92,
+              282.12833333333333
+            ],
+            [
+              298.35,
+              303.7666666666667
+            ],
+            [
+              230,
+              242.625
+            ],
+            [
+              244.04,
+              255.20666666666665
+            ],
+            [
+              255.2,
+              259.7416666666667
+            ],
+            [
+              259.75,
+              261.5833333333333
+            ],
+            [
+              261.58,
+              278.49666666666667
+            ],
+            [
+              278.5,
+              282.125
+            ],
+            [
+              282.125,
+              303.75
+            ]
+          ],
+          "captionQA": false
+        },
+        {
+          "id": "v2",
+          "number": 2,
+          "video": "/media/MC-007-v2.mp4",
+          "thumbnail": "/media/MC-007-v2.png",
+          "duration": 81.542,
+          "ranges": [
+            [
+              280.92,
+              282.12833333333333
+            ],
+            [
+              298.35,
+              303.7666666666667
+            ],
+            [
+              230,
+              242.625
+            ],
+            [
+              244.04,
+              255.20666666666665
+            ],
+            [
+              255.2,
+              259.7416666666667
+            ],
+            [
+              259.75,
+              261.5833333333333
+            ],
+            [
+              261.58,
+              278.49666666666667
+            ],
+            [
+              278.5,
+              282.125
+            ],
+            [
+              282.125,
+              303.75
+            ]
+          ],
+          "captionQA": false
+        },
+        {
+          "id": "v1",
+          "number": 1,
+          "video": "/media/MC-007-v1.mp4",
+          "thumbnail": "/media/MC-007-v1.png",
+          "duration": 81.54166666666666,
+          "ranges": [
+            [
+              280.92,
+              282.12833333333333
+            ],
+            [
+              298.35,
+              303.7666666666667
+            ],
+            [
+              230,
+              242.625
+            ],
+            [
+              244.04,
+              255.20666666666665
+            ],
+            [
+              255.2,
+              259.7416666666667
+            ],
+            [
+              259.75,
+              261.5833333333333
+            ],
+            [
+              261.58,
+              278.49666666666667
+            ],
+            [
+              278.5,
+              282.125
+            ],
+            [
+              282.125,
+              303.75
+            ]
+          ],
+          "captionQA": false
+        }
+      ],
+      "latestVersion": "v3",
+      "reviewStatus": "Review draft"
+    },
+    {
+      "id": "MC-008",
+      "label": "Linus 01",
+      "person": "Linus",
+      "topic": "Soft robotics and childcare",
+      "category": "Interview",
+      "date": "2026-10-15",
+      "sourceIds": [
+        "OUEI5090"
+      ],
+      "hubEditions": false,
+      "versions": [
+        {
+          "id": "v2",
+          "number": 2,
+          "video": "/media/MC-008-v2.mp4",
+          "thumbnail": "/media/MC-008-v2.png",
+          "duration": 68.25,
+          "ranges": [
+            [
+              583.9,
+              586.3166666666666
+            ],
+            [
+              599.5,
+              602.0833333333334
+            ],
+            [
+              570.4,
+              576.15
+            ],
+            [
+              576.65,
+              579.1083333333333
+            ],
+            [
+              579.5,
+              583.5416666666666
+            ],
+            [
+              583.9,
+              586.3166666666666
+            ],
+            [
+              586.3,
+              621.4666666666666
+            ],
+            [
+              621.45,
+              625.7833333333334
+            ],
+            [
+              625.8,
+              632.3
+            ]
+          ],
+          "captionQA": false
+        },
+        {
+          "id": "v1",
+          "number": 1,
+          "video": "/media/MC-008-v1.mp4",
+          "thumbnail": "/media/MC-008-v1.png",
+          "duration": 68.24999999999999,
+          "ranges": [
+            [
+              583.9,
+              586.3166666666666
+            ],
+            [
+              599.5,
+              602.0833333333334
+            ],
+            [
+              570.4,
+              576.15
+            ],
+            [
+              576.65,
+              579.1083333333333
+            ],
+            [
+              579.5,
+              583.5416666666666
+            ],
+            [
+              583.9,
+              586.3166666666666
+            ],
+            [
+              586.3,
+              621.4666666666666
+            ],
+            [
+              621.45,
+              625.7833333333334
+            ],
+            [
+              625.8,
+              632.3
+            ]
+          ],
+          "captionQA": false
+        }
+      ],
+      "latestVersion": "v2",
+      "reviewStatus": "Review draft"
+    },
+    {
+      "id": "MC-009",
+      "label": "Nick 02",
+      "person": "Nick",
+      "topic": "Does McDonald\u2019s count? WYL boundaries",
+      "category": "Interview",
+      "date": "2026-10-15",
+      "sourceIds": [
+        "AKJN4625"
+      ],
+      "hubEditions": false,
+      "versions": [
+        {
+          "id": "v2",
+          "number": 2,
+          "video": "/media/MC-009-v2.mp4",
+          "thumbnail": "/media/MC-009-v2.png",
+          "duration": 47.0,
+          "ranges": [
+            [
+              502.6,
+              504.05833333333334
+            ],
+            [
+              525.8,
+              530.3
+            ],
+            [
+              485.3,
+              488.6333333333333
+            ],
+            [
+              490.8,
+              494.5083333333333
+            ],
+            [
+              494.9,
+              497.8583333333333
+            ],
+            [
+              502.55,
+              509.0083333333333
+            ],
+            [
+              513,
+              515.7916666666666
+            ],
+            [
+              515.75,
+              524.1666666666666
+            ],
+            [
+              525.8,
+              530.3
+            ],
+            [
+              531.15,
+              537.4416666666666
+            ]
+          ],
+          "captionQA": false
+        },
+        {
+          "id": "v1",
+          "number": 1,
+          "video": "/media/MC-009-v1.mp4",
+          "thumbnail": "/media/MC-009-v1.png",
+          "duration": 47.0,
+          "ranges": [
+            [
+              502.6,
+              504.05833333333334
+            ],
+            [
+              525.8,
+              530.3
+            ],
+            [
+              485.3,
+              488.6333333333333
+            ],
+            [
+              490.8,
+              494.5083333333333
+            ],
+            [
+              494.9,
+              497.8583333333333
+            ],
+            [
+              502.55,
+              509.0083333333333
+            ],
+            [
+              513,
+              515.7916666666666
+            ],
+            [
+              515.75,
+              524.1666666666666
+            ],
+            [
+              525.8,
+              530.3
+            ],
+            [
+              531.15,
+              537.4416666666666
+            ]
+          ],
+          "captionQA": false
+        }
+      ],
+      "latestVersion": "v2",
+      "reviewStatus": "Review draft"
+    },
+    {
+      "id": "MC-010",
+      "label": "Nice Aunties 01",
+      "person": "Nice Aunties",
+      "topic": "Try anything at least once",
+      "category": "Interview",
+      "date": "2026-10-15",
+      "sourceIds": [
+        "CGXM3258"
+      ],
+      "hubEditions": false,
+      "versions": [
+        {
+          "id": "v2",
+          "number": 2,
+          "video": "/media/MC-010-v2.mp4",
+          "thumbnail": "/media/MC-010-v2.png",
+          "duration": 33.375,
+          "ranges": [
+            [
+              341.9,
+              344.06666666666666
+            ],
+            [
+              345,
+              347.5
+            ],
+            [
+              321.5,
+              326.4166666666667
+            ],
+            [
+              326.8,
+              331.05
+            ],
+            [
+              331.75,
+              336.0
+            ],
+            [
+              336.35,
+              344.1
+            ],
+            [
+              345.0,
+              349.9583333333333
+            ]
+          ],
+          "captionQA": false
+        },
+        {
+          "id": "v1",
+          "number": 1,
+          "video": "/media/MC-010-v1.mp4",
+          "thumbnail": "/media/MC-010-v1.png",
+          "duration": 33.375,
+          "ranges": [
+            [
+              341.9,
+              344.06666666666666
+            ],
+            [
+              345,
+              347.5
+            ],
+            [
+              321.5,
+              326.4166666666667
+            ],
+            [
+              326.8,
+              331.05
+            ],
+            [
+              331.75,
+              336.0
+            ],
+            [
+              336.35,
+              344.1
+            ],
+            [
+              345.0,
+              349.9583333333333
+            ]
+          ],
+          "captionQA": false
+        }
+      ],
+      "latestVersion": "v2",
+      "reviewStatus": "Review draft"
+    },
+    {
+      "id": "MC-011",
+      "label": "Kate 01",
+      "person": "Kate",
+      "topic": "Full Where\u2019s Your Line round",
+      "category": "Interview",
+      "date": "2026-10-15",
+      "sourceIds": [
+        "UCHY0672"
+      ],
+      "hubEditions": false,
+      "versions": [
+        {
+          "id": "v2",
+          "number": 2,
+          "video": "/media/MC-011-v2.mp4",
+          "thumbnail": "/media/MC-011-v2.png",
+          "duration": 119.209,
+          "ranges": [
+            [
+              227.8,
+              231.13333333333335
+            ],
+            [
+              218.625,
+              331.9166666666333
+            ]
+          ],
+          "captionQA": false
+        },
+        {
+          "id": "v1",
+          "number": 1,
+          "video": "/media/MC-011-v1.mp4",
+          "thumbnail": "/media/MC-011-v1.png",
+          "duration": 20.042,
+          "ranges": [
+            [
+              227.8,
+              231.13333333333335
+            ],
+            [
+              223.958333,
+              231.16666633333335
+            ],
+            [
+              231.166667,
+              238.08333366666665
+            ]
+          ],
+          "captionQA": false
+        }
+      ],
+      "latestVersion": "v2",
+      "reviewStatus": "Review draft"
+    },
+    {
+      "id": "MC-012",
+      "label": "Mabel 01",
+      "person": "Mabel",
+      "topic": "Like a kid again",
+      "category": "Interview",
+      "date": "2026-10-15",
+      "sourceIds": [
+        "SQVO0280"
+      ],
+      "hubEditions": false,
+      "versions": [
+        {
+          "id": "v1",
+          "number": 1,
+          "video": "/media/MC-012-v1.mp4",
+          "thumbnail": "/media/MC-012-v1.png",
+          "duration": 38.667,
+          "ranges": [
+            [
+              203.041667,
+              205.041667
+            ],
+            [
+              133.958333,
+              142.083333
+            ],
+            [
+              166.666667,
+              168.041667
+            ],
+            [
+              181.375,
+              205.95833333333334
+            ]
+          ],
+          "captionQA": false
+        }
+      ],
+      "latestVersion": "v1",
+      "reviewStatus": "Review draft"
+    },
+    {
+      "id": "MC-013",
+      "label": "Allan Title 01",
+      "person": "Allan Title",
+      "topic": "Creative Wave",
+      "category": "Interview",
+      "date": "2026-10-14",
+      "sourceIds": [
+        "P1013494"
+      ],
+      "hubEditions": true,
+      "versions": [
+        {
+          "id": "v2",
+          "number": 2,
+          "video": "/media/MC-013-v2.mp4",
+          "thumbnail": "/media/MC-013-v2.png",
+          "duration": 37.042,
+          "ranges": [],
+          "captionQA": false
+        },
+        {
+          "id": "v1",
+          "number": 1,
+          "video": "/media/MC-013-v1.mp4",
+          "thumbnail": "/media/MC-013-v1.png",
+          "duration": null,
+          "ranges": [],
+          "captionQA": false
+        }
+      ],
+      "latestVersion": "v2",
+      "reviewStatus": "Review draft"
+    },
+    {
+      "id": "MC-014",
+      "label": "Oscar Sharp 01",
+      "person": "Oscar Sharp",
+      "topic": "Your Specific Voice",
+      "category": "Interview",
+      "date": "2026-10-14",
+      "sourceIds": [
+        "P1013492"
+      ],
+      "hubEditions": true,
+      "versions": [
+        {
+          "id": "v2",
+          "number": 2,
+          "video": "/media/MC-014-v2.mp4",
+          "thumbnail": "/media/MC-014-v2.png",
+          "duration": 40.875,
+          "ranges": [],
+          "captionQA": false
+        },
+        {
+          "id": "v1",
+          "number": 1,
+          "video": "/media/MC-014-v1.mp4",
+          "thumbnail": "/media/MC-014-v1.png",
+          "duration": null,
+          "ranges": [],
+          "captionQA": false
+        }
+      ],
+      "latestVersion": "v2",
+      "reviewStatus": "Review draft"
+    },
+    {
+      "id": "MC-015",
+      "label": "Julia Harris 01",
+      "person": "Julia Harris",
+      "topic": "Four short films",
+      "category": "Interview",
+      "date": "2026-10-14",
+      "sourceIds": [
+        "P1013496"
+      ],
+      "hubEditions": true,
+      "versions": [
+        {
+          "id": "v2",
+          "number": 2,
+          "video": "/media/MC-015-v2.mp4",
+          "thumbnail": "/media/MC-015-v2.png",
+          "duration": 56.5,
+          "ranges": [],
+          "captionQA": false
+        },
+        {
+          "id": "v1",
+          "number": 1,
+          "video": "/media/MC-015-v1.mp4",
+          "thumbnail": "/media/MC-015-v1.png",
+          "duration": null,
+          "ranges": [],
+          "captionQA": false
+        }
+      ],
+      "latestVersion": "v2",
+      "reviewStatus": "Review draft"
+    },
+    {
+      "id": "MC-016",
+      "label": "Jonathan + Guest 01",
+      "person": "Jonathan + Guest",
+      "topic": "Where\u2019s Your Line; robot dating and chef teasers",
+      "category": "Interview",
+      "date": "2026-10-14",
+      "sourceIds": [
+        "A001_06271126_C187"
+      ],
+      "hubEditions": true,
+      "versions": [
+        {
+          "id": "v2",
+          "number": 2,
+          "video": "/media/MC-016-v2.mp4",
+          "thumbnail": "/media/MC-016-v2.png",
+          "duration": 193.709,
+          "ranges": [],
+          "captionQA": false
+        },
+        {
+          "id": "v1",
+          "number": 1,
+          "video": "/media/MC-016-v1.mp4",
+          "thumbnail": "/media/MC-016-v1.png",
+          "duration": null,
+          "ranges": [],
+          "captionQA": false
+        }
+      ],
+      "latestVersion": "v2",
+      "reviewStatus": "Review draft"
+    },
+    {
+      "id": "MC-017",
+      "label": "Danny 01",
+      "person": "Danny",
+      "topic": "Robot doctor and laundry",
+      "category": "Interview",
+      "date": "2026-10-14",
+      "sourceIds": [
+        "A001_06271415_C200"
+      ],
+      "hubEditions": true,
+      "versions": [
+        {
+          "id": "v2",
+          "number": 2,
+          "video": "/media/MC-017-v2.mp4",
+          "thumbnail": "/media/MC-017-v2.png",
+          "duration": 48.375,
+          "ranges": [],
+          "captionQA": false
+        },
+        {
+          "id": "v1",
+          "number": 1,
+          "video": "/media/MC-017-v1.mp4",
+          "thumbnail": "/media/MC-017-v1.png",
+          "duration": null,
+          "ranges": [],
+          "captionQA": false
+        }
+      ],
+      "latestVersion": "v2",
+      "reviewStatus": "Review draft"
+    },
+    {
+      "id": "MC-018",
+      "label": "Guest P1013487 01",
+      "person": "Guest P1013487",
+      "topic": "AI creative process",
+      "category": "Interview",
+      "date": "2026-10-14",
+      "sourceIds": [
+        "P1013487"
+      ],
+      "hubEditions": true,
+      "versions": [
+        {
+          "id": "v2",
+          "number": 2,
+          "video": "/media/MC-018-v2.mp4",
+          "thumbnail": "/media/MC-018-v2.png",
+          "duration": 41.292,
+          "ranges": [],
+          "captionQA": false
+        },
+        {
+          "id": "v1",
+          "number": 1,
+          "video": "/media/MC-018-v1.mp4",
+          "thumbnail": "/media/MC-018-v1.png",
+          "duration": null,
+          "ranges": [],
+          "captionQA": false
+        }
+      ],
+      "latestVersion": "v2",
+      "reviewStatus": "Review draft"
+    },
+    {
+      "id": "MC-019",
+      "label": "Louie Pecan 01",
+      "person": "Louie Pecan",
+      "topic": "Make ideas usable",
+      "category": "Interview",
+      "date": "2026-10-14",
+      "sourceIds": [
+        "P1013488"
+      ],
+      "hubEditions": true,
+      "versions": [
+        {
+          "id": "v2",
+          "number": 2,
+          "video": "/media/MC-019-v2.mp4",
+          "thumbnail": "/media/MC-019-v2.png",
+          "duration": 30.875,
+          "ranges": [],
+          "captionQA": false
+        },
+        {
+          "id": "v1",
+          "number": 1,
+          "video": "/media/MC-019-v1.mp4",
+          "thumbnail": "/media/MC-019-v1.png",
+          "duration": null,
+          "ranges": [],
+          "captionQA": false
+        }
+      ],
+      "latestVersion": "v2",
+      "reviewStatus": "Review draft"
+    },
+    {
+      "id": "MC-020",
+      "label": "Guest P1013490 01",
+      "person": "Guest P1013490",
+      "topic": "What do you love about GenJams?",
+      "category": "Interview",
+      "date": "2026-10-14",
+      "sourceIds": [
+        "P1013490"
+      ],
+      "hubEditions": true,
+      "versions": [
+        {
+          "id": "v2",
+          "number": 2,
+          "video": "/media/MC-020-v2.mp4",
+          "thumbnail": "/media/MC-020-v2.png",
+          "duration": 50.334,
+          "ranges": [],
+          "captionQA": false
+        },
+        {
+          "id": "v1",
+          "number": 1,
+          "video": "/media/MC-020-v1.mp4",
+          "thumbnail": "/media/MC-020-v1.png",
+          "duration": null,
+          "ranges": [],
+          "captionQA": false
+        }
+      ],
+      "latestVersion": "v2",
+      "reviewStatus": "Review draft"
+    },
+    {
+      "id": "MC-021",
+      "label": "Guest P1013535 01",
+      "person": "Guest P1013535",
+      "topic": "You don\u2019t find AI scary?",
+      "category": "Interview",
+      "date": "2026-10-14",
+      "sourceIds": [
+        "P1013535"
+      ],
+      "hubEditions": true,
+      "versions": [
+        {
+          "id": "v2",
+          "number": 2,
+          "video": "/media/MC-021-v2.mp4",
+          "thumbnail": "/media/MC-021-v2.png",
+          "duration": 20.667,
+          "ranges": [],
+          "captionQA": false
+        },
+        {
+          "id": "v1",
+          "number": 1,
+          "video": "/media/MC-021-v1.mp4",
+          "thumbnail": "/media/MC-021-v1.png",
+          "duration": null,
+          "ranges": [],
+          "captionQA": false
+        }
+      ],
+      "latestVersion": "v2",
+      "reviewStatus": "Review draft"
+    },
+    {
+      "id": "MC-022",
+      "label": "Adam 01",
+      "person": "Adam",
+      "topic": "Start creating",
+      "category": "Interview",
+      "date": "2026-10-14",
+      "sourceIds": [
+        "VGBQ5646"
+      ],
+      "hubEditions": true,
+      "versions": [
+        {
+          "id": "v2",
+          "number": 2,
+          "video": "/media/MC-022-v2.mp4",
+          "thumbnail": "/media/MC-022-v2.png",
+          "duration": 48.084,
+          "ranges": [],
+          "captionQA": false
+        },
+        {
+          "id": "v1",
+          "number": 1,
+          "video": "/media/MC-022-v1.mp4",
+          "thumbnail": "/media/MC-022-v1.png",
+          "duration": null,
+          "ranges": [],
+          "captionQA": false
+        }
+      ],
+      "latestVersion": "v2",
+      "reviewStatus": "Review draft"
+    },
+    {
+      "id": "MC-023",
+      "label": "Ava 01",
+      "person": "Ava",
+      "topic": "Useful and scary",
+      "category": "Interview",
+      "date": "2026-10-14",
+      "sourceIds": [
+        "A001_06271113_C186"
+      ],
+      "hubEditions": true,
+      "versions": [
+        {
+          "id": "v2",
+          "number": 2,
+          "video": "/media/MC-023-v2.mp4",
+          "thumbnail": "/media/MC-023-v2.png",
+          "duration": 33.625,
+          "ranges": [
+            [
+              16.42,
+              32.83
+            ],
+            [
+              38.34,
+              53.42
+            ]
+          ],
+          "captionQA": false
+        },
+        {
+          "id": "v1",
+          "number": 1,
+          "video": "/media/MC-023-v1.mp4",
+          "thumbnail": "/media/MC-023-v1.png",
+          "duration": null,
+          "ranges": [],
+          "captionQA": false
+        }
+      ],
+      "latestVersion": "v2",
+      "reviewStatus": "Review draft"
+    },
+    {
+      "id": "MC-024",
+      "label": "Gavin + Miles 01",
+      "person": "Gavin + Miles",
+      "topic": "Expanded Where\u2019s Your Line",
+      "category": "Interview",
+      "date": "2026-10-14",
+      "sourceIds": [
+        "A001_06031434_C057"
+      ],
+      "hubEditions": true,
+      "versions": [
+        {
+          "id": "v2",
+          "number": 2,
+          "video": "/media/MC-024-v2.mp4",
+          "thumbnail": "/media/MC-024-v2.png",
+          "duration": 64.17,
+          "ranges": [],
+          "captionQA": false
+        },
+        {
+          "id": "v1",
+          "number": 1,
+          "video": "/media/MC-024-v1.mp4",
+          "thumbnail": "/media/MC-024-v1.png",
+          "duration": null,
+          "ranges": [],
+          "captionQA": false
+        }
+      ],
+      "latestVersion": "v2",
+      "reviewStatus": "Review draft"
+    },
+    {
+      "id": "MC-025",
+      "label": "Justin Suarez 01",
+      "person": "Justin Suarez",
+      "topic": "From beginner to finished piece",
+      "category": "Interview",
+      "date": "2026-10-13",
+      "sourceIds": [
+        "P1028289"
+      ],
+      "hubEditions": false,
+      "versions": [
+        {
+          "id": "v4",
+          "number": 4,
+          "video": null,
+          "thumbnail": null,
+          "duration": 34.0,
+          "ranges": [],
+          "captionQA": false
+        }
+      ],
+      "latestVersion": "v4",
+      "reviewStatus": "Media missing"
+    },
+    {
+      "id": "MC-026",
+      "label": "Jewelry GenJam 01",
+      "person": "Jewelry GenJam",
+      "topic": "Jewelry teaser",
+      "category": "Event promo",
+      "date": "2026-10-15",
+      "sourceIds": [
+        "C0913",
+        "IMG_2579g",
+        "IMG_2592g",
+        "IMG_2595g",
+        "C0993",
+        "C0995",
+        "IMG_2593g",
+        "IMG_2596g"
+      ],
+      "hubEditions": false,
+      "versions": [
+        {
+          "id": "v1",
+          "number": 1,
+          "video": "/media/MC-026-v1.mp4",
+          "thumbnail": "/media/MC-026-v1.png",
+          "duration": 12,
+          "ranges": [],
+          "captionQA": false
+        }
+      ],
+      "latestVersion": "v1",
+      "reviewStatus": "Review draft"
+    },
+    {
+      "id": "MC-027",
+      "label": "Jewelry GenJam 02",
+      "person": "Jewelry GenJam",
+      "topic": "Sketch to object",
+      "category": "Event promo",
+      "date": "2026-10-15",
+      "sourceIds": [
+        "C0913",
+        "IMG_2579g",
+        "IMG_2591g",
+        "IMG_2592g",
+        "IMG_2595g",
+        "IMG_2589g",
+        "C0993"
+      ],
+      "hubEditions": false,
+      "versions": [
+        {
+          "id": "v1",
+          "number": 1,
+          "video": "/media/MC-027-v1.mp4",
+          "thumbnail": "/media/MC-027-v1.png",
+          "duration": 24,
+          "ranges": [],
+          "captionQA": false
+        }
+      ],
+      "latestVersion": "v1",
+      "reviewStatus": "Review draft"
+    },
+    {
+      "id": "MC-028",
+      "label": "Jewelry GenJam 03",
+      "person": "Jewelry GenJam",
+      "topic": "A maker\u2019s process",
+      "category": "Event promo",
+      "date": "2026-10-15",
+      "sourceIds": [
+        "C0913",
+        "IMG_2579g",
+        "IMG_2592g",
+        "IMG_2589g"
+      ],
+      "hubEditions": false,
+      "versions": [
+        {
+          "id": "v1",
+          "number": 1,
+          "video": "/media/MC-028-v1.mp4",
+          "thumbnail": "/media/MC-028-v1.png",
+          "duration": 30,
+          "ranges": [],
+          "captionQA": false
+        }
+      ],
+      "latestVersion": "v1",
+      "reviewStatus": "Review draft"
+    },
+    {
+      "id": "MC-029",
+      "label": "Jewelry GenJam 04",
+      "person": "Jewelry GenJam",
+      "topic": "Made to be worn",
+      "category": "Event promo",
+      "date": "2026-10-15",
+      "sourceIds": [
+        "C0913",
+        "IMG_2579g",
+        "IMG_2592g",
+        "IMG_2595g",
+        "C1011",
+        "C0993",
+        "C0995",
+        "IMG_2593g",
+        "C0982",
+        "C0996",
+        "IMG_2589g",
+        "IMG_2596g",
+        "C1015",
+        "C1006"
+      ],
+      "hubEditions": false,
+      "versions": [
+        {
+          "id": "v1",
+          "number": 1,
+          "video": "/media/MC-029-v1.mp4",
+          "thumbnail": "/media/MC-029-v1.png",
+          "duration": 42,
+          "ranges": [],
+          "captionQA": false
+        }
+      ],
+      "latestVersion": "v1",
+      "reviewStatus": "Review draft"
+    },
+    {
+      "id": "MC-030",
+      "label": "Jewelry GenJam 05",
+      "person": "Jewelry GenJam",
+      "topic": "The GenJam idea, made real",
+      "category": "Event promo",
+      "date": "2026-10-15",
+      "sourceIds": [
+        "C0913",
+        "May-IMG_1051",
+        "IMG_2579g",
+        "IMG_2591g",
+        "IMG_2592g",
+        "IMG_2595g",
+        "IMG_2589g",
+        "C0993",
+        "IMG_2596g",
+        "C1011"
+      ],
+      "hubEditions": false,
+      "versions": [
+        {
+          "id": "v1",
+          "number": 1,
+          "video": "/media/MC-030-v1.mp4",
+          "thumbnail": "/media/MC-030-v1.png",
+          "duration": 58,
+          "ranges": [],
+          "captionQA": false
+        }
+      ],
+      "latestVersion": "v1",
+      "reviewStatus": "Review draft"
+    },
+    {
+      "id": "MC-031",
+      "label": "Mabel 02",
+      "person": "Mabel",
+      "topic": "Where\u2019s your line?",
+      "category": "Interview",
+      "date": "2026-10-17",
+      "sourceIds": [
+        "SQVO0280"
+      ],
+      "hubEditions": false,
+      "versions": [
+        {
+          "id": "v1",
+          "number": 1,
+          "video": "/media/MC-031-v1.mp4",
+          "thumbnail": "/media/MC-031-v1.png",
+          "duration": 65.33333333333333,
+          "ranges": [
+            [
+              220.25,
+              283.0
+            ]
+          ],
+          "captionQA": true
+        }
+      ],
+      "latestVersion": "v1",
+      "reviewStatus": "Caption QA pending"
+    },
+    {
+      "id": "MC-032",
+      "label": "Guest HDMJ2446 01",
+      "person": "Guest HDMJ2446",
+      "topic": "How should kids learn AI?",
+      "category": "Interview",
+      "date": "2026-10-17",
+      "sourceIds": [
+        "HDMJ2446"
+      ],
+      "hubEditions": false,
+      "versions": [
+        {
+          "id": "v1",
+          "number": 1,
+          "video": "/media/MC-032-v1.mp4",
+          "thumbnail": "/media/MC-032-v1.png",
+          "duration": 54.5,
+          "ranges": [
+            [
+              270.25,
+              322.1666666666667
+            ]
+          ],
+          "captionQA": true
+        }
+      ],
+      "latestVersion": "v1",
+      "reviewStatus": "Caption QA pending"
+    },
+    {
+      "id": "MC-033",
+      "label": "Guest DTRN2399 01",
+      "person": "Guest DTRN2399",
+      "topic": "Trying AI for the first time?",
+      "category": "Interview",
+      "date": "2026-10-17",
+      "sourceIds": [
+        "DTRN2399"
+      ],
+      "hubEditions": false,
+      "versions": [
+        {
+          "id": "v1",
+          "number": 1,
+          "video": "/media/MC-033-v1.mp4",
+          "thumbnail": "/media/MC-033-v1.png",
+          "duration": 38.75,
+          "ranges": [
+            [
+              275.6666666666667,
+              311.83333333333337
+            ]
+          ],
+          "captionQA": true
+        }
+      ],
+      "latestVersion": "v1",
+      "reviewStatus": "Caption QA pending"
+    },
+    {
+      "id": "MC-034",
+      "label": "Mike 02",
+      "person": "Mike",
+      "topic": "Who gets to express themselves?",
+      "category": "Interview",
+      "date": "2026-10-17",
+      "sourceIds": [
+        "AMFL3297"
+      ],
+      "hubEditions": false,
+      "versions": [
+        {
+          "id": "v1",
+          "number": 1,
+          "video": "/media/MC-034-v1.mp4",
+          "thumbnail": "/media/MC-034-v1.png",
+          "duration": 65.375,
+          "ranges": [
+            [
+              363.1666666666667,
+              425.95833333333337
+            ]
+          ],
+          "captionQA": true
+        }
+      ],
+      "latestVersion": "v1",
+      "reviewStatus": "Caption QA pending"
+    },
+    {
+      "id": "MC-035",
+      "label": "Guest WOBD0517 02",
+      "person": "Guest WOBD0517",
+      "topic": "Can AI bring us back to storytelling?",
+      "category": "Interview",
+      "date": "2026-10-17",
+      "sourceIds": [
+        "WOBD0517"
+      ],
+      "hubEditions": false,
+      "versions": [
+        {
+          "id": "v1",
+          "number": 1,
+          "video": "/media/MC-035-v1.mp4",
+          "thumbnail": "/media/MC-035-v1.png",
+          "duration": 37.875,
+          "ranges": [
+            [
+              157.70833333333334,
+              193.0
+            ]
+          ],
+          "captionQA": true
+        }
+      ],
+      "latestVersion": "v1",
+      "reviewStatus": "Caption QA pending"
+    }
+  ],
+  "counts": {
+    "clips": 35,
+    "latestPlayable": 34,
+    "captionQAPending": 5
+  }
+}
